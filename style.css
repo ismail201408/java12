@@ -1,0 +1,449 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:url(https://fiorino-travel.by/uploads/posts/2017-10/1508578821_luchshie-plyazhi-mira.jpg);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 10px 0 30px;
+}
+
+header button {
+    background-color: white;
+    color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #f3f3f3;
+}
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+div{
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+div ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+div ul li {
+    margin: 0 10px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+div ul li a:hover {
+    color: #ff7e5f;
+}
+
+.a{background-color: black;
+    height: 50px;
+    width: 50px;
+    }
+    .b{color: white;
+        height: 50px;
+    width: 50px;
+    }
+    .c{background-color: black;
+        height: 50px;
+    width: 50px;
+    }
+    .d{color: white;
+    height: 50px;
+    width: 50px;
+    }
+    .e{background-color: black;
+        height: 50px;
+    width: 50px;
+    }
+    .f{color: white;
+        height: 50px;
+    width: 50px;
+    
+    }
+    .g{background-color: black;
+    
+        height: 50px;
+    width: 50px;
+    }
+    .h{color: white;
+    
+        height: 50px;
+    width: 50px;
+    }
+     
+    
+    
+    .a1{background-color: rgb(250, 250, 250);
+        color: white;
+        height: 50px;
+        width: 50px;
+        }
+        .a2{ background-color: black;
+            height: 50px;
+        width: 50px;
+        }
+        .a3{background-color: white;
+            color: white;
+            height: 50px;
+        width: 50px;
+        }
+        .a4{ background-color: black;
+        height: 50px;
+        width: 50px;
+        }
+        .a5{background-color: white;
+            color: white;
+            height: 50px;
+        width: 50px;
+        }
+        .a6{background-color: black;
+            height: 50px;
+        width: 50px;
+        
+        }
+        .a7{background-color: rgb(255, 255, 255);
+        color: white;
+            height: 50px;
+        width: 50px;
+        }
+        .a8{background-color: black;
+        
+            height: 50px;
+        width: 50px;
+        }
+        
+    
+    
+        .a9{background-color: black;
+            height: 50px;
+            width: 50px;
+            }
+            .a10{color: white;
+                height: 50px;
+            width: 50px;
+            }
+            .a11{background-color: black;
+                height: 50px;
+            width: 50px;
+            }
+            .a12{color: white;
+            height: 50px;
+            width: 50px;
+            }
+            .a13{background-color: black;
+                height: 50px;
+            width: 50px;
+            }
+            .a14{color: white;
+                height: 50px;
+            width: 50px;
+            
+            }
+            .a15{background-color: black;
+            
+                height: 50px;
+            width: 50px;
+            }
+            .a16{color: white;
+            
+                height: 50px;
+            width: 50px;
+            }
+    
+    
+            .a17{background-color: rgb(250, 250, 250);
+                color: white;
+                height: 50px;
+                width: 50px;
+                }
+                .a18{ background-color: black;
+                    height: 50px;
+                width: 50px;
+                }
+                .a19{background-color: white;
+                    color: white;
+                    height: 50px;
+                width: 50px;
+                }
+                .a20{ background-color: black;
+                height: 50px;
+                width: 50px;
+                }
+                .a21{background-color: white;
+                    color: white;
+                    height: 50px;
+                width: 50px;
+                }
+                .a22{background-color: black;
+                    height: 50px;
+                width: 50px;
+                
+                }
+                .a23{background-color: rgb(255, 255, 255);
+                color: white;
+                    height: 50px;
+                width: 50px;
+                }
+                .a24{background-color: black;
+                
+                    height: 50px;
+                width: 50px;
+                }
+    
+    
+                .a25{background-color: black;
+                    height: 50px;
+                    width: 50px;
+                    }
+                    .a26{color: white;
+                        height: 50px;
+                    width: 50px;
+                    }
+                    .a27{background-color: black;
+                        height: 50px;
+                    width: 50px;
+                    }
+                    .a28{color: white;
+                    height: 50px;
+                    width: 50px;
+                    }
+                    .a29{background-color: black;
+                        height: 50px;
+                    width: 50px;
+                    }
+                    .a30{color: white;
+                        height: 50px;
+                    width: 50px;
+                    
+                    }
+                    .a31{background-color: black;
+                    
+                        height: 50px;
+                    width: 50px;
+                    }
+                    .a32{color: white;
+                    
+                        height: 50px;
+                    width: 50px;
+                    }
+    
+               
+    
+                    .a33{background-color: rgb(250, 250, 250);
+                        color: white;
+                        height: 50px;
+                        width: 50px;
+                        }
+                        .a34{ background-color: black;
+                            height: 50px;
+                        width: 50px;
+                        }
+                        .a35{background-color: white;
+                            color: white;
+                            height: 50px;
+                        width: 50px;
+                        }
+                        .a36{ background-color: black;
+                        height: 50px;
+                        width: 50px;
+                        }
+                        .a37{background-color: white;
+                            color: white;
+                            height: 50px;
+                        width: 50px;
+                        }
+                        .a38{
+                           background-color: black ;
+                            height: 50px;
+                        width: 50px;
+                        }
+                        .a39{
+                        color: white;
+                            height: 50px;
+                        width: 50px;
+                        }
+                        .a401{
+                           background-color: black;
+                                height: 50px;
+                            width: 50px;
+                            }
+                        
+                    
+    
+    
+                            .a40{background-color: black;
+                                height: 50px;
+                                width: 50px;
+                                }
+                                .a41{color: white;
+                                    height: 50px;
+                                width: 50px;
+                                }
+                                .a42{background-color: black;
+                                    height: 50px;
+                                width: 50px;
+                                }
+                                .a43{color: white;
+                                height: 50px;
+                                width: 50px;
+                                }
+                                .a44{background-color: black;
+                                    height: 50px;
+                                width: 50px;
+                                }
+                                .a45{color: white;
+                                    height: 50px;
+                                width: 50px;
+                                
+                                }
+                                .a46{background-color: black;
+                                
+                                    height: 50px;
+                                width: 50px;
+                                }
+                                .a47{color: white;
+                                
+                                    height: 50px;
+                                width: 50px;
+                                }
+                
+    
+    
+    
+    
+                                .a48{background-color: rgb(250, 250, 250);
+                                    color: white;
+                                    height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a49{ background-color: black;
+                                        height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a50{background-color: white;
+                                        color: white;
+                                        height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a51{ background-color: black;
+                                    height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a52{background-color: white;
+                                        color: white;
+                                        height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a53{
+                                       background-color: black ;
+                                        height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a54{
+                                    color: white;
+                                        height: 50px;
+                                    width: 50px;
+                                    }
+                                    .a55{
+                                       background-color: black;
+                                            height: 50px;
+                                        width: 50px;
+                                        }
+    
+    div{margin-left: 30px;
+    
+    
+    
+    }
+     */
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
