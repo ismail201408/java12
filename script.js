@@ -608,12 +608,19 @@
 
 // третье задание 
 
-function close1() {
-  window.close()
-}
-function open1() {
-  let newwindow = window.open()
-  let a  = document.createElement("p")
-  a.innerHTML = "Welcome to a new page"
-  newwindow.document.body.append(a)
+// function close1() {
+//   window.close()
+// }
+// function open1() {
+//   let newwindow = window.open()
+//   let a  = document.createElement("p")
+//   a.innerHTML = "Welcome to a new page"
+//   newwindow.document.body.append(a)
+// }
+function func1() {
+  let a1 = document.getElementById("a2")
+  a1.style.backgroundColor = "background-color: rgba(7, 7, 7, 0.5)"
+  a1.style.width = "100%"
+  a1.style.height = "100%"
+  
 }
