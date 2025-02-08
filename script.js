@@ -617,10 +617,12 @@
 //   a.innerHTML = "Welcome to a new page"
 //   newwindow.document.body.append(a)
 // }
+let div = document.getElementById("modalW")
 function func1() {
-  let a1 = document.getElementById("a2")
-  a1.style.backgroundColor = "background-color: rgba(7, 7, 7, 0.5)"
-  a1.style.width = "100%"
-  a1.style.height = "100%"
-  
+  div.style.display = "flex"
+  document.body.style.overflowY = "hidden"
+}
+function func2() {
+  div.style.display = "none"
+  document.body.style.overflowY = "scroll"
 }
