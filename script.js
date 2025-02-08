@@ -626,3 +626,40 @@ function func2() {
   div.style.display = "none"
   document.body.style.overflowY = "scroll"
 }
+
+let a = document.getElementById("a")
+let b = document.getElementById("b")
+let c = document.getElementById("c")
+
+let w1 = document.getElementById("w1")
+let w2 = document.getElementById("w2")
+let w3 = document.getElementById("w3")
+
+
+a.addEventListener("input", () => {
+  if (a.value.length < 8) {
+      w1.innerHTML = "Введите текст длиной более 8";
+      w1.style.color = "red";
+  } else {
+      w1.innerHTML = "Данные верны";
+      w1.style.color = "green";
+  }
+});
+b.addEventListener("input", () => {
+  if (b.value.length < 8) {
+      w2.innerHTML = "Введите текст длиной более 8";
+      w2.style.color = "red";
+  } else {
+      w2.innerHTML = "Данные верны";
+      w2.style.color = "green";
+  }
+});
+c.addEventListener("input", () => {
+  if (c.value!==b.value) {
+      w3.innerHTML = "не похоже";
+      w3.style.color = "red";
+  } else {
+      w3.innerHTML = "похоже";
+      w3.style.color = "green";
+  }
+});
