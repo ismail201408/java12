@@ -636,6 +636,9 @@ let a = document.getElementById("a")
 let b = document.getElementById("b")
 let c = document.getElementById("c")
 let d = document.getElementById("d")
+let qas = document.getElementById("qas")
+let qzx = document.getElementById("qzx")
+let q1 = document.getElementById("q1")
 
 let w1 = document.getElementById("w1")
 let w4 = document.getElementById("w4")
@@ -686,4 +689,18 @@ c.addEventListener("input", () => {
       w3.style.color = "green";
       w3.style.fontSize = "15px"
   }
+});
+
+q1.addEventListener("click", () => {
+  if (c.value=b.value) {
+    let newmodal = window.open();
+    let p = document.createElement("p")
+    p.innerHTML = `hello ${a.value}, password ${b.value}`
+    newmodal.document.body.append(p)
+}else {
+  w3.innerHTML = "не похоже";
+  w3.style.color = "red";
+  w3.style.fontSize = "15px"
+}
+  
 });
