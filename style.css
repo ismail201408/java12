@@ -416,8 +416,8 @@ img{
 }
 .parent{
     position: relative;
-    width: 99vw;
-    height: 97vh;
+    width: 100vw;
+    height: 100vh;
     /* overflow: hidden; */
 }
 #modalW{
@@ -447,4 +447,21 @@ p{
 .ac{
     background-color: red;
     color: white;
+}
+.q1{
+    margin-top: 24px;
+}
+.xaz{
+    /* position: absolute; */
+   position: relative;
+   bottom: -350px;
+   z-index: 99;
+   font-size: 25px;
+}
+.awe{
+    z-index: 99;
+    color: blue;
+    position: relative;
+   bottom: -350px;
+   font-size: 25px;
 }
