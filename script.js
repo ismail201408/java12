@@ -707,23 +707,27 @@
   
 // });
 
-console.log("Ширина окна: " + window.innerWidth);
-console.log("Высота окна: " + window.innerHeight);
+// console.log("Ширина окна: " + window.innerWidth);
+// console.log("Высота окна: " + window.innerHeight);
 
-let myWindow;
+// let myWindow;
    
-   function openWin() {
-     myWindow = window.open("", "", "width=200, height=100");
-   }
+//    function openWin() {
+//      myWindow = window.open("", "", "width=200, height=100");
+//    }
    
-   function resizeWin() {
-     myWindow.resizeTo(300, 300);
-   }
+//    function resizeWin() {
+//      myWindow.resizeTo(300, 300);
+//    }
 
+
+// function func1() {
+//   window.location.href = "https://www.bmw.az/ru/index.html"
+// }
+// function func2() {
+//   window.location.href = "https://www.mercedes-benz.com.az/"
+// }
 
 function func1() {
-  window.location.href = "https://www.bmw.az/ru/index.html"
-}
-function func2() {
-  window.location.href = "https://www.mercedes-benz.com.az/"
+  window.history.forward()
 }
